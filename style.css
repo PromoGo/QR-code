@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family:"Outfit", sans-serif;
+}
+
+div.box {
+    width: 220px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+} 
+
+img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    padding: 0 5px;
+    color: hsl(220, 15%, 55%);
+}
